@@ -1,5 +1,5 @@
 name: Build
-on: push
+on: workflow_dispatch
 jobs:
   PyInstaller:
     runs-on: ${{ matrix.os }}
